@@ -1,0 +1,390 @@
+/* open-sans-300 - latin_latin-ext */
+@font-face {
+    font-display: auto;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../fonts/open-sans-v40-latin_latin-ext-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-300italic - latin_latin-ext */
+@font-face {
+    font-display: auto;
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 300;
+    src: url("../../fonts/open-sans-v40-latin_latin-ext-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600 - latin_latin-ext */
+@font-face {
+    font-display: auto;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../../fonts/open-sans-v40-latin_latin-ext-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-600italic - latin_latin-ext */
+@font-face {
+    font-display: auto;
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 600;
+    src: url("../../fonts/open-sans-v40-latin_latin-ext-600italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-300 - latin_latin-ext */
+@font-face {
+    font-display: auto;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../../fonts/josefin-sans-v32-latin_latin-ext-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* josefin-sans-300italic - latin_latin-ext */
+@font-face {
+    font-display: auto;
+    font-family: "Josefin Sans";
+    font-style: italic;
+    font-weight: 300;
+    src: url("../../fonts/josefin-sans-v32-latin_latin-ext-300italic.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+@media (prefers-color-scheme: light) {
+}
+/* Theme: Base */
+[data-theme="base"] {
+    --font-one: "Open Sans", sans-serif;
+    --font-two: "Josefin Sans", sans-serif;
+    --body-color: #fff;
+    --body-bg-color: #1b1b1b;
+    --heading-color: #ffffff;
+    --attribute-color: #f00;
+    --blockquote-color: #ebebeb;
+    --body-bg-image: url("../../images/bg/regular.webp");
+    /*--------------------------------------------------------------
+    	# Tables
+    	--------------------------------------------------------------*/
+    --table-color: #e0e0e0;
+    --tableheader-bg-color: #f7f7f7;
+    --tabledata-color: #dddddd;
+    /*--------------------------------------------------------------
+    	Forms
+    	--------------------------------------------------------------*/
+    --buttoninput-color: #f00;
+    --buttoninput-border-color: #f00;
+    --buttoninput-bg-color: transparent;
+    --buttoninput-hover-color: #fff;
+    --buttoninput-hover-bg-color: #f00;
+    --buttoninput-focus-border-top-color: #333;
+    --buttoninput-focus-border-sides-color: #bbb;
+    --buttoninput-focus-border-bottom-color: #bbb;
+    --buttoninput-focus-box-shadow-inset-color: rgba(255, 255, 255, 0.5);
+    --buttoninput-focus-box-shadow-inset-two-color: rgba(0, 0, 0, 0.15);
+    --select-border-color: #f2f2f3;
+    /*--------------------------------------------------------------
+    	## Menus
+    	--------------------------------------------------------------*/
+    --main-navigation-attribute-color: #fff;
+    --main-navigation-list-style-before-border-top-color: #f00;
+    --main-navigation-list-style-after-border-bottom-color: #f00;
+    --main-navigation-list-style-bg-color: #1c1e21;
+    --main-navigation-attribute-hover-color: #f00;
+    --main-navigation-list-style-attribute-color: #fff;
+    --main-navigation-sub-list-style-attribute-color: #fff;
+    /* Mobile menu */
+    --buttonmenu-color: #fff;
+    --buttonmenu-before-color: #fff;
+    --main-navigation-mobile-bg-color: #202529;
+    --main-navigation-mobile-list-style-border-bottom-color: rgba(255, 255, 255, 0.05);
+    --main-navigation-mobile-list-style-bg-color: #171717;
+    /*--------------------------------------------------------------
+    	# Accessibility
+    	--------------------------------------------------------------*/
+    --screen-reader-text-focus-bg-color: #f1f1f1;
+    --screen-reader-text-focus-box-shadow-color: rgba(0, 0, 0, 0.6);
+    --screen-reader-text-focus-color: #21759b;
+    /*--------------------------------------------------------------
+    	# Content
+    	--------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+    	## Posts and pages
+    	--------------------------------------------------------------*/
+    --hentry-bg-color: rgba(32, 37, 41, 1);
+    --hentry-border-color: rgba(255, 255, 255, 0.08);
+    /*--------------------------------------------------------------
+    	## Widgetised
+    	--------------------------------------------------------------*/
+    --row-overlay-bg-color: rgba(37, 46, 53, 0.8);
+    /* Block titles */
+    --widget-title-title-decoration-bg-color: rgba(92, 98, 101, 0.6);
+    --widget-title-atblock-bg-color: #d2d8da;
+    --service-title-attribute-color: #ffffff;
+    --service-title-attribute-p-color: #ffffff;
+    --service-title-attribute-hover-color: #f00;
+    /*--------------------------------------------------------------
+    	## Structure and Borders
+    	--------------------------------------------------------------*/
+    --site-title-attribute-color: #fff;
+    --site-description-attribute-color: #bdbdbd;
+    --site-content-bg-color: #1b1b1b;
+    --site-content-border-left-color: rgba(255, 255, 255, 0.08);
+    --site-content-border-right-color: rgba(255, 255, 255, 0.08);
+    --site-content-border-bottom-color: rgba(255, 255, 255, 0.08);
+    --page-header-title-fa-color: #f00;
+    /*--------------------------------------------------------------
+    	## Header
+    	--------------------------------------------------------------*/
+    --site-header-bg-color: #202529;
+    --site-header-border-bottom-color: rgba(255, 255, 255, 0.1);
+    --site-header-has-video-header-bg-color: transparent;
+    --site-header-scrolled-bg-color: rgba(32, 37, 41, 0.9);
+    --site-header-scrolled-border-bottom-color: transparent;
+    --header-image-after-bg-color: rgba(37, 46, 53, 0.9);
+    --header-text-color: #fff;
+    --header-subtext-color: #fff;
+    --header-subtext-border-bottom-color: rgba(255, 255, 255, 0.1);
+    --eyecatcher-custom-header-video-poster: url("../../images/bg/video.poster.webp");
+    /*--------------------------------------------------------------
+    	## Footer
+    	--------------------------------------------------------------*/
+    --footer-info-bg-color: rgba(32, 37, 41, 0.9);
+    --footer-widget-border-bottom-color: rgba(255, 255, 255, 0.08);
+    --site-footer-attribute-color: #fff;
+    --site-footer-attribute-hover-color: #f00;
+    --footer-widgets-title-color: #fff;
+    /* Footer branding */
+    --footer-info-border-bottom-color: rgba(255, 255, 255, 0.08);
+    /* Footer contact */
+    --footer-contact-border-left-color: rgba(255, 255, 255, 0.08);
+    --footer-contact-block-span-border-top-color: rgba(255, 255, 255, 0.08);
+    /*--------------------------------------------------------------
+        ## Responsive
+        --------------------------------------------------------------*/
+    --responsive-site-header-video-bg-color: #202529;
+}
+/* Colors Used for Dark Mode
+ * #272727 -> #ffffff
+ * #858585 - Off White
+ * #303030 - Off Grey
+ * #f5f9f8 -> #1b1b1b
+ **/
+/* Theme: Dark */
+[data-theme="dark"] {
+    --font-one: "Open Sans", sans-serif;
+    --font-two: "Josefin Sans", sans-serif;
+    --body-color: #fff;
+    --body-bg-color: #1b1b1b;
+    --heading-color: #ffffff;
+    --attribute-color: #f00;
+    --blockquote-color: #ebebeb;
+    --body-bg-image: url("../../images/bg/night.webp");
+    /*--------------------------------------------------------------
+    	# Tables
+    	--------------------------------------------------------------*/
+    --table-color: #e0e0e0;
+    --tableheader-bg-color: #f7f7f7;
+    --tabledata-color: #dddddd;
+    /*--------------------------------------------------------------
+    	Forms
+    	--------------------------------------------------------------*/
+    --buttoninput-color: #f00;
+    --buttoninput-border-color: #f00;
+    --buttoninput-bg-color: transparent;
+    --buttoninput-hover-color: #fff;
+    --buttoninput-hover-bg-color: #f00;
+    --buttoninput-focus-border-top-color: #333;
+    --buttoninput-focus-border-sides-color: #bbb;
+    --buttoninput-focus-border-bottom-color: #bbb;
+    --buttoninput-focus-box-shadow-inset-color: rgba(255, 255, 255, 0.5);
+    --buttoninput-focus-box-shadow-inset-two-color: rgba(0, 0, 0, 0.15);
+    --select-border-color: #f2f2f3;
+    /*--------------------------------------------------------------
+    	## Menus
+    	--------------------------------------------------------------*/
+    --main-navigation-attribute-color: #fff;
+    --main-navigation-list-style-before-border-top-color: #f00;
+    --main-navigation-list-style-after-border-bottom-color: #f00;
+    --main-navigation-list-style-bg-color: #1c1e21;
+    --main-navigation-attribute-hover-color: #f00;
+    --main-navigation-list-style-attribute-color: #fff;
+    --main-navigation-sub-list-style-attribute-color: #fff;
+    /* Mobile menu */
+    --buttonmenu-color: #fff;
+    --buttonmenu-before-color: #fff;
+    --main-navigation-mobile-bg-color: #0e0e0e;
+    --main-navigation-mobile-list-style-border-bottom-color: rgba(255, 255, 255, 0.05);
+    --main-navigation-mobile-list-style-bg-color: #171717;
+    /*--------------------------------------------------------------
+    	# Accessibility
+    	--------------------------------------------------------------*/
+    --screen-reader-text-focus-bg-color: #f1f1f1;
+    --screen-reader-text-focus-box-shadow-color: rgba(0, 0, 0, 0.6);
+    --screen-reader-text-focus-color: #21759b;
+    /*--------------------------------------------------------------
+    	# Content
+    	--------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+    	## Posts and pages
+    	--------------------------------------------------------------*/
+    --hentry-bg-color: #000;
+    --hentry-border-color: rgba(51, 51, 51, 0.8);
+    /*--------------------------------------------------------------
+    	## Widgetised
+    	--------------------------------------------------------------*/
+    --row-overlay-bg-color: rgba(0, 0, 0, 0.7);
+    /* Block titles */
+    --widget-title-title-decoration-bg-color: rgba(92, 98, 101, 0.6);
+    --widget-title-atblock-bg-color: #d2d8da;
+    --service-title-attribute-color: #ffffff;
+    --service-title-attribute-p-color: #ffffff;
+    --service-title-attribute-hover-color: #f00;
+    /*--------------------------------------------------------------
+    	## Structure and Borders
+    	--------------------------------------------------------------*/
+    --site-title-attribute-color: #fff;
+    --site-description-attribute-color: #bdbdbd;
+    --site-content-bg-color: #1b1b1b;
+    --site-content-border-left-color: rgba(255, 255, 255, 0.08);
+    --site-content-border-right-color: rgba(255, 255, 255, 0.08);
+    --site-content-border-bottom-color: rgba(255, 255, 255, 0.08);
+    --page-header-title-fa-color: #f00;
+    /*--------------------------------------------------------------
+    	## Header
+    	--------------------------------------------------------------*/
+    --site-header-bg-color: rgba(0, 0, 0, 1);
+    --site-header-border-bottom-color: rgba(255, 255, 255, 0.1);
+    --site-header-has-video-header-bg-color: transparent;
+    --site-header-scrolled-bg-color: rgba(0, 0, 0, 0.88);
+    --site-header-scrolled-border-bottom-color: transparent;
+    --header-image-after-bg-color: rgba(0, 0, 0, 0.7);
+    --header-text-color: #fff;
+    --header-subtext-color: #fff;
+    --header-subtext-border-bottom-color: rgba(255, 255, 255, 0.1);
+    --eyecatcher-custom-header-video-poster: url("../../images/bg/video.poster.webp");
+    /*--------------------------------------------------------------
+    	## Footer
+    	--------------------------------------------------------------*/
+    --footer-info-bg-color: rgba(0, 0, 0, 0.88);
+    --footer-widget-border-bottom-color: rgba(255, 255, 255, 0.08);
+    --site-footer-attribute-color: #fff;
+    --site-footer-attribute-hover-color: #f00;
+    --footer-widgets-title-color: #fff;
+    /* Footer branding */
+    --footer-info-border-bottom-color: rgba(51, 51, 51, 0.8);
+    /* Footer contact */
+    --footer-contact-border-left-color: rgba(51, 51, 51, 0.6);
+    --footer-contact-block-span-border-top-color: rgba(255, 255, 255, 0.08);
+    /*--------------------------------------------------------------
+        ## Responsive
+        --------------------------------------------------------------*/
+    --responsive-site-header-video-bg-color: rgba(0, 0, 0, 1);
+}
+/* Theme: Light */
+[data-theme="light"] {
+    --font-one: "Open Sans", sans-serif;
+    --font-two: "Josefin Sans", sans-serif;
+    --body-color: #000;
+    --body-bg-color: #1b1b1b;
+    --heading-color: #000;
+    --attribute-color: #f00;
+    --blockquote-color: #303030;
+    --body-bg-image: url("../../images/bg/day.webp");
+    /*--------------------------------------------------------------
+    	# Tables
+    	--------------------------------------------------------------*/
+    --table-color: #e0e0e0;
+    --tableheader-bg-color: #f7f7f7;
+    --tabledata-color: #dddddd;
+    /*--------------------------------------------------------------
+    	Forms
+    	--------------------------------------------------------------*/
+    --buttoninput-color: #f00;
+    --buttoninput-border-color: #f00;
+    --buttoninput-bg-color: transparent;
+    --buttoninput-hover-color: #fff;
+    --buttoninput-hover-bg-color: #f00;
+    --buttoninput-focus-border-top-color: #333;
+    --buttoninput-focus-border-sides-color: #bbb;
+    --buttoninput-focus-border-bottom-color: #bbb;
+    --buttoninput-focus-box-shadow-inset-color: rgba(255, 255, 255, 0.5);
+    --buttoninput-focus-box-shadow-inset-two-color: rgba(0, 0, 0, 0.15);
+    --select-border-color: #f2f2f3;
+    /*--------------------------------------------------------------
+    	## Menus
+    	--------------------------------------------------------------*/
+    --main-navigation-attribute-color: #000;
+    --main-navigation-list-style-before-border-top-color: #f00;
+    --main-navigation-list-style-after-border-bottom-color: #f00;
+    --main-navigation-list-style-bg-color: #e8e8e8;
+    --main-navigation-attribute-hover-color: #f00;
+    --main-navigation-list-style-attribute-color: #000;
+    --main-navigation-sub-list-style-attribute-color: #000;
+    /* Mobile menu */
+    --buttonmenu-color: #000;
+    --buttonmenu-before-color: #000;
+    --main-navigation-mobile-bg-color: #e8e8e8;
+    --main-navigation-mobile-list-style-border-bottom-color: rgba(255, 255, 255, 0.05);
+    --main-navigation-mobile-list-style-bg-color: #e8e8e8;
+    /*--------------------------------------------------------------
+    	# Accessibility
+    	--------------------------------------------------------------*/
+    --screen-reader-text-focus-bg-color: #f1f1f1;
+    --screen-reader-text-focus-box-shadow-color: rgba(0, 0, 0, 0.6);
+    --screen-reader-text-focus-color: #21759b;
+    /*--------------------------------------------------------------
+    	# Content
+    	--------------------------------------------------------------*/
+    /*--------------------------------------------------------------
+    	## Posts and pages
+    	--------------------------------------------------------------*/
+    --hentry-bg-color: #e8e8e8;
+    --hentry-border-color: rgba(51, 51, 51, 0.8);
+    /*--------------------------------------------------------------
+    	## Widgetised
+    	--------------------------------------------------------------*/
+    --row-overlay-bg-color: rgba(115, 115, 115, 0.9);
+    /* Block titles */
+    --widget-title-color: rgba(255, 255, 255, 0.9);
+    --widget-title-title-decoration-bg-color: rgba(92, 98, 101, 0.6);
+    --widget-title-atblock-bg-color: #d2d8da;
+    --service-title-attribute-color: #ffffff;
+    --service-title-attribute-p-color: #ffffff;
+    --service-title-attribute-hover-color: #f00;
+    /*--------------------------------------------------------------
+    	## Structure and Borders
+    	--------------------------------------------------------------*/
+    --site-title-attribute-color: #000;
+    --site-description-attribute-color: #363636;
+    --site-content-bg-color: #1b1b1b;
+    --site-content-border-left-color: rgba(255, 255, 255, 0.08);
+    --site-content-border-right-color: rgba(255, 255, 255, 0.08);
+    --site-content-border-bottom-color: rgba(255, 255, 255, 0.08);
+    --page-header-title-fa-color: #f00;
+    /*--------------------------------------------------------------
+    	## Header
+    	--------------------------------------------------------------*/
+    --site-header-bg-color: rgba(255, 255, 255, 1);
+    --site-header-border-bottom-color: rgba(255, 255, 255, 0.1);
+    --site-header-has-video-header-bg-color: transparent;
+    --site-header-scrolled-bg-color: rgba(255, 255, 255, 0.8);
+    --site-header-scrolled-border-bottom-color: transparent;
+    --header-image-after-bg-color: rgba(255, 255, 255, 0.7);
+    --header-text-color: #000;
+    --header-subtext-color: #000;
+    --header-subtext-border-bottom-color: rgba(255, 255, 255, 0.1);
+    --eyecatcher-custom-header-video-poster: url("../../images/bg/video.poster.webp");
+    /*--------------------------------------------------------------
+    	## Footer
+    	--------------------------------------------------------------*/
+    --footer-info-bg-color: rgba(255, 255, 255, 0.8);
+    --footer-widget-border-bottom-color: rgba(255, 255, 255, 0.08);
+    --site-footer-attribute-color: #000;
+    --site-footer-attribute-hover-color: #f00;
+    --footer-widgets-title-color: #000;
+    /* Footer branding */
+    --footer-info-border-bottom-color: rgba(51, 51, 51, 0.8);
+    /* Footer contact */
+    --footer-contact-border-left-color: rgba(51, 51, 51, 0.6);
+    --footer-contact-block-span-border-top-color: rgba(0, 0, 0, 0.2);
+    /*--------------------------------------------------------------
+        ## Responsive
+        --------------------------------------------------------------*/
+    --responsive-site-header-video-bg-color: rgba(255, 255, 255, 1);
+}
